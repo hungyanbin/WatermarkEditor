@@ -1,2 +1,5 @@
 rootProject.name='WatermarkEditor'
-include ':app', ':photo_picker'
+include ':app',
+        ':photo_picker',
+        ':lib-common',
+        ':lib-gesture'

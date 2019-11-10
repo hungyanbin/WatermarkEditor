@@ -7,6 +7,19 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/buttonProcess"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="@string/process"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
         android:id="@+id/buttonMultipleSelection"
         android:layout_width="match_parent"
         android:layout_margin="16dp"
@@ -17,7 +30,9 @@
         android:text="@string/pick_photos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toTopOf="@id/buttonProcess" />
+
+
 
     <com.yanbin.watermarkeditor.WaterMarkView
         android:id="@+id/waterMark"
