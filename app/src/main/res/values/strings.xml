@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WatermarkEditor</string>
+    <string name="pick_photos">選擇相片</string>
 </resources>
